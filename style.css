@@ -85,6 +85,7 @@ and (orientation: portrait){
         }
         .logo{
             font-size: 80px;
+            margin-right: 200px;
         }
 
     .navlink{
@@ -101,7 +102,9 @@ and (orientation: portrait){
         display:none;
     }
 
-    .burger{display: block;}
+    .burger{display: block;
+    margin-left: 155px;
+}
     /*.logo{
         position: absolute;
         left: 0px;
