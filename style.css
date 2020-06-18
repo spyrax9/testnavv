@@ -59,7 +59,7 @@ nav{
         width: 60%;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:480px){
     .body{overflow-x: hidden;}
   .navlink li{
         text-align: center;
