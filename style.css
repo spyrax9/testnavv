@@ -64,7 +64,7 @@ and (min-device-width: 240px)
 and (max-device-width: 768px) 
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait){
-    .body{overflow-x: hidden;}
+
   .navlink li{
         text-align: center;
        /* font-size: 100%;
@@ -74,8 +74,17 @@ and (orientation: portrait){
         padding-bottom: 15px;
 
     }
+    .burger div{
+        height: 12px;
+        width: 100px;
+        background-color: rgb(191, 236, 214);
+        margin: 15px;
+    }
     .navlink a{
-        font-size: 35px;
+        font-size: 70px;
+        }
+        .logo{
+            font-size: 80px;
         }
 
     .navlink{
